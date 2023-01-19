@@ -1,0 +1,612 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"build" : "Engine_Control",
+					"jsonFile" : "directory-Engine_Control-Debug-965b22617b7c01552d45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Engine_Control",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "Apps",
+					"jsonFile" : "directory-Apps-Debug-d4b9b0e78dce0e2771d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Apps",
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AEM594",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Engine_Control",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "main",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-08342e11406750c3b35c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e7e3b12e5e69246bb1f5",
+					"jsonFile" : "target-ALL_BUILD-Debug-d93996f57f6bf0784a4b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@baaa7a1a4213a52c26f3",
+					"jsonFile" : "target-ALL_BUILD-Debug-60ed10245a6697a1a45d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Engine_Control::@e7e3b12e5e69246bb1f5",
+					"jsonFile" : "target-Engine_Control-Debug-8e45b7bcad85f87d37ef.json",
+					"name" : "Engine_Control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-844e5bd3661873a29f98.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "main::@baaa7a1a4213a52c26f3",
+					"jsonFile" : "target-main-Debug-de1e3a2ea89669120d02.json",
+					"name" : "main",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"build" : "Engine_Control",
+					"jsonFile" : "directory-Engine_Control-Release-965b22617b7c01552d45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Engine_Control",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "Apps",
+					"jsonFile" : "directory-Apps-Release-d4b9b0e78dce0e2771d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Apps",
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AEM594",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Engine_Control",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "main",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-08342e11406750c3b35c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e7e3b12e5e69246bb1f5",
+					"jsonFile" : "target-ALL_BUILD-Release-d93996f57f6bf0784a4b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@baaa7a1a4213a52c26f3",
+					"jsonFile" : "target-ALL_BUILD-Release-60ed10245a6697a1a45d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Engine_Control::@e7e3b12e5e69246bb1f5",
+					"jsonFile" : "target-Engine_Control-Release-d469676e718ebc776029.json",
+					"name" : "Engine_Control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-844e5bd3661873a29f98.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "main::@baaa7a1a4213a52c26f3",
+					"jsonFile" : "target-main-Release-ee1f68cf145b0e84bc63.json",
+					"name" : "main",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"build" : "Engine_Control",
+					"jsonFile" : "directory-Engine_Control-MinSizeRel-965b22617b7c01552d45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Engine_Control",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "Apps",
+					"jsonFile" : "directory-Apps-MinSizeRel-d4b9b0e78dce0e2771d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Apps",
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AEM594",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Engine_Control",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "main",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-08342e11406750c3b35c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e7e3b12e5e69246bb1f5",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d93996f57f6bf0784a4b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@baaa7a1a4213a52c26f3",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-60ed10245a6697a1a45d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Engine_Control::@e7e3b12e5e69246bb1f5",
+					"jsonFile" : "target-Engine_Control-MinSizeRel-35ab05436c7716de688d.json",
+					"name" : "Engine_Control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-844e5bd3661873a29f98.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "main::@baaa7a1a4213a52c26f3",
+					"jsonFile" : "target-main-MinSizeRel-c561149b06452ee396c4.json",
+					"name" : "main",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"build" : "Engine_Control",
+					"jsonFile" : "directory-Engine_Control-RelWithDebInfo-965b22617b7c01552d45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Engine_Control",
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"build" : "Apps",
+					"jsonFile" : "directory-Apps-RelWithDebInfo-d4b9b0e78dce0e2771d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11-3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Apps",
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AEM594",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Engine_Control",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "main",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-08342e11406750c3b35c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@e7e3b12e5e69246bb1f5",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d93996f57f6bf0784a4b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@baaa7a1a4213a52c26f3",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-60ed10245a6697a1a45d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Engine_Control::@e7e3b12e5e69246bb1f5",
+					"jsonFile" : "target-Engine_Control-RelWithDebInfo-d22e612ab64816c331e2.json",
+					"name" : "Engine_Control",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-844e5bd3661873a29f98.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "main::@baaa7a1a4213a52c26f3",
+					"jsonFile" : "target-main-RelWithDebInfo-ff25496c3793e968253d.json",
+					"name" : "main",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Sophia/OneDrive/Desktop/Josh V/AEM 594/build",
+		"source" : "C:/Users/Sophia/OneDrive/Desktop/Josh V/AEM 594"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

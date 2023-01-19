@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/Sophia/OneDrive/Desktop/Josh V/AEM 594/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I\"C:/Users/Sophia/OneDrive/Desktop/Josh V/AEM 594/Engine_Control/include\" -g -std=gnu++20 -o Engine_Control\\CMakeFiles\\Engine_Control.dir\\src\\hello.cpp.obj -c \"C:\\Users\\Sophia\\OneDrive\\Desktop\\Josh V\\AEM 594\\Engine_Control\\src\\hello.cpp\"",
+  "file": "C:\\Users\\Sophia\\OneDrive\\Desktop\\Josh V\\AEM 594\\Engine_Control\\src\\hello.cpp"
+},
+{
+  "directory": "C:/Users/Sophia/OneDrive/Desktop/Josh V/AEM 594/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -I\"C:/Users/Sophia/OneDrive/Desktop/Josh V/AEM 594/Engine_Control/include\" -g -std=gnu++20 -o Apps\\CMakeFiles\\main.dir\\main.cpp.obj -c \"C:\\Users\\Sophia\\OneDrive\\Desktop\\Josh V\\AEM 594\\Apps\\main.cpp\"",
+  "file": "C:\\Users\\Sophia\\OneDrive\\Desktop\\Josh V\\AEM 594\\Apps\\main.cpp"
+}
+]
